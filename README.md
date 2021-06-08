@@ -25,3 +25,7 @@
 ## lerna发布相关的命令
 ### 更新版本号
 + `lerna version` 需要发布后才能使用
+### 查看变更信息
++ `lerna changed`
+### 查看当前文件信息和上次commit之间的变更
++ `lerna diff`
