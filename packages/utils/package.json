@@ -1,6 +1,6 @@
 {
   "name": "@ponyo-cli/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "chenqiang <1252321427@qq.com>",
   "homepage": "",
@@ -17,7 +17,7 @@
     "test": "echo \"run tests from utils\""
   },
   "devDependencies": {
-    "@ponyo-cli/core": "^1.0.1"
+    "@ponyo-cli/core": "^1.0.2"
   },
   "gitHead": "6c32cc9d38cd51acb1348b483bef90adc20220c6"
 }
