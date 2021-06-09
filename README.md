@@ -29,3 +29,5 @@
 + `lerna changed`
 ### 查看当前文件信息和上次commit之间的变更
 + `lerna diff`
+### 发布
++ `lerna publish`
