@@ -31,3 +31,16 @@
 + `lerna diff`
 ### 发布
 + `lerna publish`
+
+### 发布时的一些小问题
+1. `lerna ERR! E402 You must sign up for private packages`， 因为我们packages下面的包在发布的时候，默认是以分组下的私有包发布
+  + 解决方案
+    1. 执行`lerna publish`的时候添加`--access pulic`属性
+    2. 在packages下对应包的package.json中添加
+        ```
+          "publishConfig": {
+            "access": "public"
+          }
+        ```
+2. `lerna WARN ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.`
+  + 在项目根目录下添加LICENSE.md文件

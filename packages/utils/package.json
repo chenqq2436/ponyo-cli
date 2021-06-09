@@ -19,5 +19,8 @@
   "devDependencies": {
     "@ponyo-cli/core": "^1.0.2"
   },
-  "gitHead": "b0142a4e520825ca092f2f245a6364c5cbedc15b"
+  "gitHead": "b0142a4e520825ca092f2f245a6364c5cbedc15b",
+  "publishConfig": {
+    "access": "public"
+  }
 }
