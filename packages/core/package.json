@@ -1,6 +1,6 @@
 {
   "name": "@ponyo-cli/core",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "chenqiang <1252321427@qq.com>",
   "homepage": "",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "echo \"run tests from core\""
   },
-  "gitHead": "6c32cc9d38cd51acb1348b483bef90adc20220c6"
+  "gitHead": "b0142a4e520825ca092f2f245a6364c5cbedc15b"
 }
